@@ -8,7 +8,7 @@ class MenuItem {
         this.price = price;
     }
     public String toString() {
-        return name + ": " + description + " - $" + price;
+        return name + ": " + description + " - Rs" + price;
     }
 }
 public class RestaurantMenu {
@@ -38,9 +38,9 @@ public class RestaurantMenu {
     }
     public static void main(String[] args) {
         RestaurantMenu rm = new RestaurantMenu();
-        rm.addItem("Appetizer", new MenuItem("Chicken Tikka", "Grilled chicken", 5.99));
-        rm.addItem("Main Course", new MenuItem("Biryani", "Butter chicken", 15.99));
-        rm.addItem("Dessert", new MenuItem("Ice Cream", "Gulab jamun", 3.99));
+        rm.addItem("Appetizer", new MenuItem("Chicken Tikka", "Grilled chicken", 500));
+        rm.addItem("Main Course", new MenuItem("Biryani", "Butter chicken", 1500));
+        rm.addItem("Dessert", new MenuItem("Ice Cream", "Gulab jamun", 300));
         rm.displayMenu();
     }
 }
