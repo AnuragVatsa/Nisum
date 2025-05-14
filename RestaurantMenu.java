@@ -38,9 +38,9 @@ public class RestaurantMenu {
     }
     public static void main(String[] args) {
         RestaurantMenu rm = new RestaurantMenu();
-        rm.addItem("Appetizer", new MenuItem("Spring Rolls", "Crispy rolls", 5.99));
-        rm.addItem("Main Course", new MenuItem("Steak", "Grilled beef steak", 15.99));
-        rm.addItem("Dessert", new MenuItem("Ice Cream", "Vanilla scoop", 3.99));
+        rm.addItem("Appetizer", new MenuItem("Chicken Tikka", "Grilled chicken", 5.99));
+        rm.addItem("Main Course", new MenuItem("Biryani", "Butter chicken", 15.99));
+        rm.addItem("Dessert", new MenuItem("Ice Cream", "Gulab jamun", 3.99));
         rm.displayMenu();
     }
 }
